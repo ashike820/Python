@@ -1,0 +1,4 @@
+data = input().split(" ")
+data = [int(a) for a in data]
+a = data[0]*data[1]
+print(a)
