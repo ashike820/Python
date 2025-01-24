@@ -1,0 +1,12 @@
+
+data = input()
+x = 0
+for i in range(len(data)):
+    if str(data[i]) in ['A','a','E','e','I','i','O','o','U','u']:
+        x=1
+
+if x==0:
+    print("The string does not contain any vowel.")
+else:
+    print ("The string contains a vowel.")
+    
