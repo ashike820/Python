@@ -1,0 +1,6 @@
+a = input().split()
+a =[float(num) for num in a]
+
+b = a[0]+a[1]+a[2]
+c = b/3
+print("Average: %.2f" %(c))
