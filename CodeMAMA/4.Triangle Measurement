@@ -1,0 +1,10 @@
+import math
+
+b = input().split(" ")
+data = [int(a) for a in b]
+
+b = data[0]
+h = data[1]
+
+a= b*(h*.5)
+print(math.floor(a))
