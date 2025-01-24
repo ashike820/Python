@@ -1,0 +1,9 @@
+import math
+
+a = input().split()
+b = input().split()
+a = [float (num) for num in a]
+b = [float (num) for num in b]
+p = ((b[0]-a[0])*(b[0]-a[0]) + (b[1]-a[1])*(b[1]-a[1]))
+
+print("Distance: %.2f"%(math.sqrt(p)))
