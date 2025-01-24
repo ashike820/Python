@@ -1,0 +1,7 @@
+a = input().split()
+a = [int (num) for num in a]
+print("Before swapping: num1 = "+str(a[0])+", num2 = "+str(a[1]))
+b = a[0]
+a[0]=a[1]
+a[1]=b
+print("After swapping: num1 = "+str(a[0])+", num2 = "+str(a[1]))
